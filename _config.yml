@@ -1,0 +1,15 @@
+title: Resenhas PDS
+description: Resenhas sobre artigos de Engenharia de Software — PUC Minas
+baseurl: "/Resenhas_PDS"
+url: "https://bernardogomes25.github.io"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

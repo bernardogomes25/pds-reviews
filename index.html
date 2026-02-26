@@ -1,0 +1,23 @@
+---
+layout: default
+title: Início
+---
+
+<h2>Resenhas</h2>
+
+{% assign posts = site.posts %}
+{% if posts.size > 0 %}
+  <ul class="post-list">
+    {% for post in posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>Nenhuma resenha publicada ainda.</p>
+{% endif %}
+
+<hr>
+<p class="hint">Para adicionar uma nova resenha, crie um arquivo <code>.md</code> na pasta <code>_posts/</code> seguindo o formato <code>AAAA-MM-DD-titulo.md</code>.</p>
