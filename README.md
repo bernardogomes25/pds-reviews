@@ -6,7 +6,7 @@ Resenhas sobre artigos de Engenharia de Software discutidos em Projeto de Softwa
 
 ---
 
-## Como adicionar uma nova resenha
+## Adicionar uma nova resenha
 
 1. Crie um arquivo `.md` na pasta `_posts/` com o nome no formato:
    ```
@@ -33,13 +33,14 @@ Resenhas sobre artigos de Engenharia de Software discutidos em Projeto de Softwa
 ## Estrutura do projeto
 
 ```
-_posts/          ← suas resenhas ficam aqui
-_layouts/        ← templates HTML (não precisa editar)
-assets/css/      ← estilos (não precisa editar)
+_posts/          ← resenhas
+_layouts/        ← templates HTML
+_pdfs/           ← resenhas na versão em PDF
+assets/css/      ← estilos
 _config.yml      ← configuração do site
-index.html       ← página inicial (lista de resenhas)
+index.html       ← página inicial
 ```
 
 ## Publicação
 
-O site usa **Jekyll + GitHub Pages**. Qualquer push para a branch principal atualiza o site automaticamente — não é necessário instalar nada localmente.
+O site usa **Jekyll + GitHub Pages**. Qualquer push para a branch principal atualiza o site automaticamente.
