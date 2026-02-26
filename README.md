@@ -4,6 +4,8 @@ Resenhas sobre artigos de Engenharia de Software discutidos em Projeto de Softwa
 
 🌐 **Site:** https://bernardogomes25.github.io/Resenhas_PDS
 
+📄 **Também é possível encontrar a versão em .pdf dos artigos na pasta "_pdfs".**
+
 ---
 
 ## Adicionar uma nova resenha
