@@ -11,9 +11,9 @@ Resenhas sobre artigos de Engenharia de Software discutidos em Projeto de Softwa
 ## Estrutura do projeto
 
 ```
-_posts/          ← resenhas
 _layouts/        ← templates HTML
 _pdfs/           ← resenhas na versão em PDF
+_posts/          ← resenhas
 assets/css/      ← estilos
 _config.yml      ← configuração do site
 index.html       ← página inicial
